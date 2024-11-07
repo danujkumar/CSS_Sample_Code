@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and Z-index</title>
+    <style>
+        #boxy1{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            border:2px solid white;
+        }
+        
+        #boxy2{
+            background-color: green;
+            height: 100px;
+            width: 100px;
+            border:2px solid white;
+        }
+
+        #boxy3{
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            border:2px solid white;
+            display:none;
+            visibility:visible;
+        }
+
+        #boxy4{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            border:2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="boxy1"></div>
+    <div class="box" id="boxy2"></div>
+    <div class="box" id="boxy3"></div>
+    <div class="box" id="boxy4"></div>
+</body>
+</html>
